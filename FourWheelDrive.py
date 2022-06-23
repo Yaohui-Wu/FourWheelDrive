@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 #*******************************************************
-# ×÷Õß£ºÎéÒ«êÍ              Author: YaoHui.Wu          *
-# ¿ªÔ´ÈÕÆÚ£º2022Äê6ÔÂ7ÈÕ    Open Source Date: 2022-6-7 *
-# ¹ú¼Ò£ºÖÐ¹ú                Country: China             *
+# ä½œè€…ï¼šä¼è€€æ™–              Author: YaoHui.Wu          *
+# å¼€æºæ—¥æœŸï¼š2022å¹´6æœˆ7æ—¥    Open Source Date: 2022-6-7 *
+# å›½å®¶ï¼šä¸­å›½                Country: China             *
 #*******************************************************
 
 import sys
@@ -167,7 +167,7 @@ if __name__ == "__main__":
 
             iTrinary = 243 * lTrinary[0] + 81 * lTrinary[1] + 27 * lTrinary[2] + 9 * lTrinary[3] + 3 * lTrinary[4] + lTrinary[5]
 
-            baCiphertext[2 * j] = iTrinary
+            baCiphertext[2 * j] = iTrinary & 255
 
             baCiphertext[2 * j + 1] = iTrinary >> 8
 
